@@ -1,0 +1,118 @@
+  body {
+    margin: 0;
+    outline: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 100%;
+  }
+
+  h1 {
+    padding-top: 20%;
+    font-size: 48px;
+    color: white;
+    line-height: 0;
+  }
+
+  p {
+    font-size: 28px;
+    color: white;
+  }
+
+  button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+	background-color: #fff;
+    color: #2C2F33;
+    font-weight: 1000;
+    border-radius: 10px;
+  }
+  
+  .fs {
+    background-color: #fff;
+    color: #2C2F33;
+    font-weight: 1000;
+    border-radius: 10px;
+  }
+  
+  .fs:hover {
+    background-color: #2C2F33;
+    color: white;
+  }
+  
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(
+      124deg,
+      #ff2400,
+      #e81d1d,
+      #e8b71d,
+      #e3e81d
+    );
+    background-size: 1800% 1800%;
+  
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+  }
+  
+  @-webkit-keyframes rainbow {
+    0% {
+      background-position: 0% 82%;
+    }
+    50% {
+      background-position: 100% 19%;
+    }
+    100% {
+      background-position: 0% 82%;
+    }
+  }
+  @-moz-keyframes rainbow {
+    0% {
+      background-position: 0% 82%;
+    }
+    50% {
+      background-position: 100% 19%;
+    }
+    100% {
+      background-position: 0% 82%;
+    }
+  }
+  @-o-keyframes rainbow {
+    0% {
+      background-position: 0% 82%;
+    }
+    50% {
+      background-position: 100% 19%;
+    }
+    100% {
+      background-position: 0% 82%;
+    }
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 82%;
+    }
+    50% {
+      background-position: 100% 19%;
+    }
+    100% {
+      background-position: 0% 82%;
+    }
+  }
+  
